@@ -19,13 +19,7 @@ export function Header({ current }: { current: string }) {
 }
 
 export function Footer() {
-  return (
-    <footer>
-      <div className="footer-brand"><span className="brand-mark">R</span><h2>Let’s dance, Ottawa.</h2></div>
-      <p>Ready to find your rhythm?</p><a className="button button-light" href="/classes">View classes <span>→</span></a>
-      <div className="footer-bottom"><span>© 2026 Rathi School of Dance</span><span>Ottawa, Ontario</span><a href="/">Home ↑</a></div>
-    </footer>
-  );
+  return null;
 }
 
 export function PageHero({ number, label, title, accent, intro }: { number: string; label: string; title: string; accent: string; intro: string }) {

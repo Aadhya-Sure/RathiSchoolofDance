@@ -6,7 +6,6 @@ export default function Home() {
       <Header current="home" />
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> Ottawa’s home for Bharatanatyam</p>
           <h1 className="home-school-title"><span>Rathi</span><br />School of Dance</h1>
           <p className="intro">A welcoming home for dancers in Ottawa to discover confidence, culture, and the joy of movement.</p>
           <div className="hero-actions">
@@ -20,15 +19,17 @@ export default function Home() {
         </div>
       </section>
       <section className="marquee" aria-label="School values"><span>DISCIPLINE</span><b>✦</b><span>JOY</span><b>✦</b><span>COMMUNITY</span><b>✦</b><span>ARTISTRY</span></section>
-      <section className="home-intro section">
-        <div className="section-label"><span>01</span> Rathi School of Dance</div>
-        <div className="about-heading">
-          <h2>Classical roots.<br /><em>A living art.</em></h2>
-          <div><p>Learn Bharatanatyam in an encouraging environment where tradition, musicality, and individual expression grow together.</p><a className="dark-link" href="/about">Discover our story <span>→</span></a></div>
+      <section className="bharatanatyam-intro section">
+        <div className="bharatanatyam-placeholder" role="img" aria-label="Placeholder for a Bharatanatyam photograph">
+          <div className="placeholder-mark">B</div>
+          <span>Bharatanatyam image<br />coming soon</span>
         </div>
-        <div className="home-cards">
-          <a href="/classes"><span>Training</span><h3>Four levels for every stage of your journey.</h3><b>View classes ↗</b></a>
-          <a href="/gallery"><span>In motion</span><h3>See the colour, focus, and joy of our art.</h3><b>View gallery ↗</b></a>
+        <div className="bharatanatyam-copy">
+          <div className="section-label"><span>01</span> The art form</div>
+          <h2>What is<br /><em>Bharatanatyam?</em></h2>
+          <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India. Its movement language brings together precise rhythmic footwork, sculptural poses, codified hand gestures called mudras, and expressive storytelling known as abhinaya.</p>
+          <p>Traditionally accompanied by Carnatic music, the form unites pure dance, expression, and dramatic interpretation. Dancers train progressively in posture, rhythm, coordination, repertoire, and the relationship between movement and meaning.</p>
+          <p>Over generations, Bharatanatyam moved from temple and court traditions to the modern stage and is now taught and performed around the world. Its practice remains both disciplined and evolving, carrying cultural memory forward through each dancer.</p>
         </div>
       </section>
       <Footer />
