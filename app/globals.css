@@ -288,6 +288,8 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .bharatanatyam-copy p,.pandanallur-copy p,.about-school-copy p,.director-copy p,.albums-heading p,.album-copy > p:not(.album-tag),.classes-top p,.class-list .class-description,.contact-details > p { font-size:14px; line-height:1.95; }
 .image-frame,.page-image,.about-image-placeholder,.bharatanatyam-placeholder,.pandanallur-placeholder,.director-portrait,.album-image { border:3px double var(--gold); outline:0; box-shadow:none; }
 .image-frame:after,.page-image:after { content:""; position:absolute; inset:12px; border:1px solid rgba(255,245,223,.36); pointer-events:none; }
+.hero .image-frame { background:url('/nataraja-stage.png') center 34%/cover no-repeat; }
+.hero .image-frame:before { display:none; }
 .class-list { display:block; margin-top:70px; border-top:3px double rgba(128,28,47,.35); }
 .class-list article { padding:34px 10px; border:0; border-bottom:1px solid rgba(128,28,47,.28); background:transparent; box-shadow:none; }
 .class-list article:hover { transform:none; background:rgba(225,169,40,.07); box-shadow:none; }
