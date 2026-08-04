@@ -63,11 +63,11 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .page-hero-art { position:relative; overflow:hidden; background:linear-gradient(135deg,var(--orange),var(--gold)); }
 .page-hero-art .sun-disc { width:90%; right:-20%; top:12%; }
 .page-image { position:absolute; inset:4% 0 0 -18%; z-index:1; background:url('/dance-hero.jpg') center/cover; mix-blend-mode:multiply; filter:saturate(.75); }
-.about-page .site-header { color:var(--plum); border-bottom-color:rgba(59,9,41,.16); }
-.about-page .page-hero { grid-template-columns:1fr; background:var(--cream); color:var(--ink); }
+.about-page .site-header { color:var(--cream); border-bottom-color:rgba(246,240,228,.16); }
+.about-page .page-hero { grid-template-columns:1fr; background:var(--plum); color:var(--cream); }
 .about-page .page-hero-copy { max-width:1120px; width:100%; margin:0 auto; padding-left:8vw; padding-right:8vw; }
-.about-page .page-hero-copy .section-label.light { color:#8a796f; }
-.about-page .page-hero-copy p { color:#76665d; }
+.about-page .page-hero-copy .section-label.light { color:rgba(246,240,228,.55); }
+.about-page .page-hero-copy p { color:rgba(246,240,228,.68); }
 .about-page .page-hero-art { display:none; }
 .values { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; margin-top:90px; }
 .values article { border-top:1px solid #cdbfb3; padding:26px 6% 0 0; }
@@ -107,11 +107,12 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .album-copy h3 { margin:16px 0 20px; color:var(--plum); font-family:"Italiana",serif; font-size:clamp(38px,4vw,58px); font-weight:400; }
 .album-copy > p:not(.album-tag) { margin:0 0 25px; color:#76665d; font-size:14px; line-height:1.8; }
 .album-status { display:inline-block; padding-bottom:6px; border-bottom:1px solid #cfae9b; }
-.director { display:grid; grid-template-columns:.85fr 1.15fr; gap:9vw; align-items:center; background:var(--plum); color:var(--cream); }
+.director { display:grid; grid-template-columns:.85fr 1.15fr; gap:9vw; align-items:center; background:var(--cream); color:var(--ink); }
 .director-portrait { min-height:650px; display:grid; place-items:end start; padding:28px; background:linear-gradient(155deg,rgba(232,165,43,.12),rgba(59,9,41,.45)),url('/dance-hero.jpg') 38% center/cover; }
 .director-portrait span { text-transform:uppercase; letter-spacing:.18em; line-height:1.7; font-size:9px; color:rgba(246,240,228,.62); }
 .director-copy h2 { font-size:clamp(54px,5.4vw,82px); margin-bottom:35px; }
-.director-copy p { color:rgba(246,240,228,.68); font-size:15px; line-height:1.85; max-width:620px; }
+.director-copy .section-label.light { color:#8a796f; }
+.director-copy p { color:#76665d; font-size:15px; line-height:1.85; max-width:620px; }
 .director-copy small { display:block; margin-top:28px; color:var(--gold); text-transform:uppercase; letter-spacing:.14em; font-size:8px; }
 footer { padding:95px 8vw 30px; background:var(--orange); color:white; text-align:center; }
 .footer-brand { display:flex; flex-direction:column; align-items:center; gap:28px; }
