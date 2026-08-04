@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap');
 @import "tailwindcss";
 
-:root { --cream:#fff8ed; --plum:#173f8a; --plum-light:#087b78; --orange:#159d9a; --gold:#35b98f; --ink:#17324d; }
+:root { --cream:#fff7e8; --plum:#681c2b; --plum-light:#9b2838; --orange:#c44a32; --gold:#d4af37; --ink:#3b2023; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--cream); color:var(--ink); font-family:"DM Sans",sans-serif; }
@@ -213,6 +213,32 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .contact-form-wrap { border:1px solid var(--gold); box-shadow:inset 0 0 0 8px rgba(102,201,191,.1),12px 12px 0 rgba(102,201,191,.18); }
 .contact-form-wrap .button { border:1px solid var(--gold); background:var(--gold); color:var(--plum); }
 .contact-details dl { border-top:3px double var(--gold); }
+
+/* Traditional red and gold palette */
+.section-label,.about-heading p,.gallery-top p,.classes-top p,.bharatanatyam-copy p,.director-copy p,.albums-heading p,.album-copy > p:not(.album-tag),.contact-details > p { color:#765b53; }
+.hero-visual,.page-hero-art { background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.07) 0,rgba(255,255,255,.07) 1px,transparent 1px,transparent 14px),linear-gradient(120deg,#8e1f2f,#c44a32 58%,#d4af37); }
+.hero-visual:after { background:linear-gradient(90deg,rgba(104,28,43,.48),transparent 45%),linear-gradient(0deg,rgba(104,28,43,.4),transparent 55%); }
+.site-header { border-bottom-color:rgba(212,175,55,.58); }
+.brand-mark { box-shadow:0 0 0 3px rgba(212,175,55,.2),0 0 0 4px rgba(255,247,232,.2); }
+.header-cta { border-color:rgba(212,175,55,.85); }
+.button { box-shadow:inset 0 0 0 3px rgba(255,255,255,.16),0 8px 24px rgba(67,20,28,.16); }
+.button:hover { box-shadow:inset 0 0 0 3px rgba(255,255,255,.2),0 12px 28px rgba(67,20,28,.22); }
+.image-frame,.page-image { background:linear-gradient(145deg,rgba(104,28,43,.12),rgba(255,247,232,.2)); }
+.image-frame,.page-image,.about-image-placeholder,.bharatanatyam-placeholder,.pandanallur-placeholder,.director-portrait,.album-image { outline-color:rgba(212,175,55,.48); box-shadow:9px 9px 0 rgba(212,175,55,.2),18px 18px 0 rgba(104,28,43,.1); }
+.bharatanatyam-placeholder { background:radial-gradient(circle at 64% 27%,rgba(212,175,55,.32),transparent 28%),linear-gradient(145deg,#fff7e8,#ead7b1); color:rgba(104,28,43,.74); }
+.pandanallur-placeholder,.about-image-placeholder { background:radial-gradient(circle at 36% 28%,rgba(212,175,55,.34),transparent 27%),linear-gradient(145deg,var(--plum-light),#681c2b); color:rgba(255,247,232,.78); }
+.sun-disc { box-shadow:0 0 80px rgba(212,175,55,.34); }
+.bharatanatyam-placeholder:before { border-color:rgba(104,28,43,.24); }
+.pandanallur-placeholder:before,.about-image-placeholder:before { border-color:rgba(212,175,55,.38); }
+.image-frame:before,.page-image:before { border-color:rgba(104,28,43,.46); color:rgba(104,28,43,.74); }
+.album-image { background:linear-gradient(135deg,rgba(212,175,55,.38),rgba(104,28,43,.82)); }
+.director-portrait { background-image:linear-gradient(155deg,rgba(212,175,55,.05),rgba(104,28,43,.11)),url('/sheela-chandrashekar.jpg'); }
+.gallery-grid figure { border-color:rgba(104,28,43,.3); background:linear-gradient(135deg,rgba(212,175,55,.28),rgba(104,28,43,.56)); }
+.class-list article { border-color:rgba(104,28,43,.16); }
+.class-list article:hover { box-shadow:inset 5px 0 0 var(--orange),0 10px 26px rgba(67,20,28,.1); }
+.round-arrow { box-shadow:0 0 0 3px rgba(212,175,55,.28); }
+.album { border-color:rgba(104,28,43,.14); }
+.contact-form-wrap { box-shadow:inset 0 0 0 8px rgba(212,175,55,.1),12px 12px 0 rgba(212,175,55,.2); }
 footer { padding:95px 8vw 30px; background:var(--orange); color:white; text-align:center; }
 .footer-brand { display:flex; flex-direction:column; align-items:center; gap:28px; }
 .footer-brand h2 { font-size:clamp(50px,6vw,88px); }
