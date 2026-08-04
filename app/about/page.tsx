@@ -2,7 +2,7 @@ import { Footer, Header, PageHero } from "../site-components";
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="about-page">
       <Header current="about" />
       <PageHero number="02" label="Our story" title="More than steps." accent="A lifelong language." intro="We honour the detail, discipline, and storytelling of Bharatanatyam while creating a joyful place for today’s dancers to grow." />
       <section className="director section">

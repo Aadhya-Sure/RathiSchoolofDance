@@ -63,6 +63,12 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .page-hero-art { position:relative; overflow:hidden; background:linear-gradient(135deg,var(--orange),var(--gold)); }
 .page-hero-art .sun-disc { width:90%; right:-20%; top:12%; }
 .page-image { position:absolute; inset:4% 0 0 -18%; z-index:1; background:url('/dance-hero.jpg') center/cover; mix-blend-mode:multiply; filter:saturate(.75); }
+.about-page .site-header { color:var(--plum); border-bottom-color:rgba(59,9,41,.16); }
+.about-page .page-hero { grid-template-columns:1fr; background:var(--cream); color:var(--ink); }
+.about-page .page-hero-copy { max-width:1120px; width:100%; margin:0 auto; padding-left:8vw; padding-right:8vw; }
+.about-page .page-hero-copy .section-label.light { color:#8a796f; }
+.about-page .page-hero-copy p { color:#76665d; }
+.about-page .page-hero-art { display:none; }
 .values { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; margin-top:90px; }
 .values article { border-top:1px solid #cdbfb3; padding:26px 6% 0 0; }
 .values strong,.class-number { color:var(--orange); font-size:10px; letter-spacing:.18em; }
