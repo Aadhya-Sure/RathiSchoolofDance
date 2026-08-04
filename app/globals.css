@@ -107,8 +107,8 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .album-copy h3 { margin:16px 0 20px; color:var(--plum); font-family:"Italiana",serif; font-size:clamp(38px,4vw,58px); font-weight:400; }
 .album-copy > p:not(.album-tag) { margin:0 0 25px; color:#76665d; font-size:14px; line-height:1.8; }
 .album-status { display:inline-block; padding-bottom:6px; border-bottom:1px solid #cfae9b; }
-.director { display:grid; grid-template-columns:1.08fr .92fr; gap:7vw; align-items:center; background:var(--cream); color:var(--ink); }
-.director-portrait { min-height:0; aspect-ratio:1.35 / 1; display:grid; place-items:end start; padding:28px; background:linear-gradient(155deg,rgba(232,165,43,.08),rgba(59,9,41,.12)),url('/sheela-chandrashekar.jpg') center/cover; }
+.director { display:grid; grid-template-columns:.95fr 1.05fr; gap:7vw; align-items:center; background:var(--cream); color:var(--ink); }
+.director-portrait { min-height:0; aspect-ratio:.82 / 1; display:grid; place-items:end start; padding:28px; background:linear-gradient(155deg,rgba(232,165,43,.06),rgba(59,9,41,.1)),url('/sheela-chandrashekar.jpg') 72% center/cover; }
 .director-portrait span { text-transform:uppercase; letter-spacing:.18em; line-height:1.7; font-size:9px; color:rgba(246,240,228,.62); }
 .director-copy h2 { font-size:clamp(54px,5.4vw,82px); margin-bottom:35px; }
 .director-copy .section-label.light { color:#8a796f; }
