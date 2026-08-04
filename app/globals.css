@@ -108,6 +108,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .class-list h3 { font-family:"Italiana",serif; font-size:32px; margin:0 0 5px; font-weight:400; }
 .class-list p,.level { color:rgba(246,240,228,.48); text-transform:uppercase; letter-spacing:.14em; font-size:9px; }
 .class-list .class-description { margin:12px 0 0; max-width:650px; color:rgba(246,240,228,.66); text-transform:none; letter-spacing:0; line-height:1.55; font-size:13px; text-align:justify; }
+.class-list .class-syllabus { font-size:15px; line-height:1.6; letter-spacing:.09em; }
 .round-arrow { border:1px solid rgba(246,240,228,.3); width:44px; height:44px; border-radius:50%; display:grid; place-items:center; }
 .schedule-note { color:rgba(246,240,228,.45); text-align:right; font-size:11px; letter-spacing:.08em; margin-top:24px; }
 .classes-page .classes { background:var(--cream); color:var(--ink); }
@@ -241,6 +242,8 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .contact-form-wrap { box-shadow:inset 0 0 0 8px rgba(212,175,55,.1),12px 12px 0 rgba(212,175,55,.2); }
 
 /* Rich ruby and saffron-gold refinement */
+.director-portrait { position:relative; background:radial-gradient(circle at 50% 34%,rgba(225,169,40,.34),transparent 26%),linear-gradient(145deg,var(--plum-light),var(--plum)); }
+.director-portrait:before { content:"Artistic Director portrait\A coming soon"; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); white-space:pre; color:rgba(255,245,223,.78); text-align:center; text-transform:uppercase; letter-spacing:.18em; line-height:1.8; font-size:9px; }
 .hero-copy:after,.page-hero-copy:after { display:none; }
 .hero-visual,.page-hero-art { background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.08) 0,rgba(255,255,255,.08) 1px,transparent 1px,transparent 14px),linear-gradient(120deg,#9d1830,#d44732 56%,#e1a928); }
 .hero-visual:after { background:linear-gradient(90deg,rgba(128,28,47,.5),transparent 45%),linear-gradient(0deg,rgba(128,28,47,.4),transparent 55%); }

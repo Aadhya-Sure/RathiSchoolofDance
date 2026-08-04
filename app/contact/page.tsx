@@ -9,18 +9,18 @@ export default function ContactPage() {
         <div className="contact-details">
           <div className="section-label"><span>School details</span></div>
           <h2>Come dance<br /><em>with us.</em></h2>
-          <p>Rathi School of Dance offers progressive Bharatanatyam training in a welcoming Ottawa community, from beginner foundations through post-Arangetram study.</p>
+          <p>Rathi School of Dance offers progressive Bharatanatyam training in a welcoming Ottawa community, from beginner foundations through advanced study.</p>
           <dl>
             <div><dt>Location</dt><dd>Ottawa, Ontario<br /><small>Studio address provided with registration</small></dd></div>
             <div><dt>Artistic Director</dt><dd>Sheela Chandrashekar</dd></div>
-            <div><dt>Email</dt><dd><a href="mailto:aadhya.sure@gmail.com">aadhya.sure@gmail.com</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:rathi.school@gmail.com">rathi.school@gmail.com</a></dd></div>
             <div><dt>Phone</dt><dd>(613) 555-0148 <small>Placeholder</small></dd></div>
           </dl>
         </div>
         <div className="contact-form-wrap">
           <p className="form-kicker">Send a message</p>
           <h2>We’d love to<br />hear from <em>you.</em></h2>
-          <form action="mailto:aadhya.sure@gmail.com" method="post" encType="text/plain">
+          <form action="mailto:rathi.school@gmail.com" method="post" encType="text/plain">
             <label>Full name<input type="text" name="Name" required autoComplete="name" placeholder="Your name" /></label>
             <label>Email address<input type="email" name="Email" required autoComplete="email" placeholder="you@example.com" /></label>
             <label>Phone number <span>Optional</span><input type="tel" name="Phone" autoComplete="tel" placeholder="(613) 555-0123" /></label>
