@@ -241,6 +241,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .contact-form-wrap { box-shadow:inset 0 0 0 8px rgba(212,175,55,.1),12px 12px 0 rgba(212,175,55,.2); }
 
 /* Rich ruby and saffron-gold refinement */
+.hero-copy:after,.page-hero-copy:after { display:none; }
 .hero-visual,.page-hero-art { background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.08) 0,rgba(255,255,255,.08) 1px,transparent 1px,transparent 14px),linear-gradient(120deg,#9d1830,#d44732 56%,#e1a928); }
 .hero-visual:after { background:linear-gradient(90deg,rgba(128,28,47,.5),transparent 45%),linear-gradient(0deg,rgba(128,28,47,.4),transparent 55%); }
 .site-header { border-bottom-color:rgba(225,169,40,.66); }

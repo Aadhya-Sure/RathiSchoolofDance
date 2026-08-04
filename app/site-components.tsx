@@ -13,7 +13,6 @@ export function Header({ current }: { current: string }) {
       <nav aria-label="Main navigation">
         {links.map((link) => <a className={current === link.key ? "active" : ""} href={link.href} key={link.key} aria-current={current === link.key ? "page" : undefined}>{link.label}</a>)}
       </nav>
-      <a className="header-cta" href="/contact">Get in touch <span>↗</span></a>
     </header>
   );
 }

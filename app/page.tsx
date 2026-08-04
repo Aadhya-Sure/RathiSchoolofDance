@@ -10,9 +10,7 @@ export default function Home() {
           <p className="intro">A school preserving the tradition in Ottawa for the past 40 years.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="/classes">Explore classes <span>→</span></a>
-            <a className="text-link" href="/about">Our story <span>↘</span></a>
           </div>
-          <div className="hero-foot"><span>OTTAWA, ONTARIO</span><span className="ornament">✦</span><span>BHARATANATYAM · ALL LEVELS</span></div>
         </div>
         <div className="hero-visual" role="img" aria-label="Classical Indian dancers performing on stage">
           <div className="sun-disc" /><div className="image-frame" /><div className="vertical-note">GRACE · STRENGTH · EXPRESSION</div>
