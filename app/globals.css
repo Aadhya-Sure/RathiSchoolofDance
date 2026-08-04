@@ -109,6 +109,13 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .class-list p,.level { color:rgba(246,240,228,.48); text-transform:uppercase; letter-spacing:.14em; font-size:9px; }
 .class-list .class-description { margin:12px 0 0; max-width:650px; color:rgba(246,240,228,.66); text-transform:none; letter-spacing:0; line-height:1.55; font-size:13px; text-align:justify; }
 .class-list .class-syllabus { font-size:15px; line-height:1.6; letter-spacing:.09em; }
+.class-location { background:var(--plum); color:var(--cream); border-top:10px solid var(--gold); }
+.class-location .section-label { margin-bottom:55px; }
+.class-location-grid { display:grid; grid-template-columns:1fr 1fr; gap:8vw; }
+.class-location-grid > div { padding-top:26px; border-top:3px double rgba(225,169,40,.55); }
+.class-location-grid span { color:var(--gold); text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
+.class-location-grid h2 { margin-top:22px; font-size:clamp(48px,5vw,78px); }
+.class-location-grid h2 em { color:var(--gold); }
 .round-arrow { border:1px solid rgba(246,240,228,.3); width:44px; height:44px; border-radius:50%; display:grid; place-items:center; }
 .schedule-note { color:rgba(246,240,228,.45); text-align:right; font-size:11px; letter-spacing:.08em; margin-top:24px; }
 .classes-page .classes { background:var(--cream); color:var(--ink); }
@@ -315,7 +322,7 @@ footer > p { color:rgba(255,255,255,.75); margin:20px 0 30px; }
   .site-header { height:116px; padding:14px 22px 12px; grid-template-columns:1fr; align-content:center; gap:12px; } .site-header .brand { justify-self:center; } nav { display:flex; justify-content:center; gap:24px; font-size:9px; } .header-cta { display:none; }
   .hero { display:block; min-height:0; } .hero-copy { min-height:700px; padding:130px 8vw 42px; } .hero-visual { height:560px; }
   .page-hero { padding-top:116px; grid-template-columns:1fr; } .page-hero-copy { padding:80px 8vw; } .page-hero-art { height:430px; } .about-school-hero { padding-top:155px; grid-template-columns:1fr; } .about-image-placeholder { min-height:460px; }
-  .about-heading,.gallery-top,.classes-top,.albums-heading { grid-template-columns:1fr; gap:25px; } .bharatanatyam-intro,.pandanallur-section { grid-template-columns:1fr; } .bharatanatyam-placeholder,.pandanallur-placeholder { min-height:420px; } .values { grid-template-columns:1fr; gap:30px; } .director,.contact-section { grid-template-columns:1fr; } .director-portrait { min-height:0; }
+  .about-heading,.gallery-top,.classes-top,.albums-heading { grid-template-columns:1fr; gap:25px; } .bharatanatyam-intro,.pandanallur-section,.class-location-grid { grid-template-columns:1fr; } .bharatanatyam-placeholder,.pandanallur-placeholder { min-height:420px; } .values { grid-template-columns:1fr; gap:30px; } .director,.contact-section { grid-template-columns:1fr; } .director-portrait { min-height:0; }
   .class-list article { grid-template-columns:42px 1fr 44px; } .level { display:none; }
   .gallery-grid { height:720px; grid-template-columns:1fr 1fr; grid-template-rows:2fr 1fr 1fr; } .gallery-main { grid-column:1/3; grid-row:auto; } .gallery-detail.three { grid-column:1/3; }
 }

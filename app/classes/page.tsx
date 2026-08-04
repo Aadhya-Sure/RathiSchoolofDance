@@ -10,13 +10,19 @@ export default function ClassesPage() {
   return (
     <main className="classes-page">
       <Header current="classes" />
-      <PageHero number="03" label="Bharatanatyam classes" title="One tradition." accent="A lifelong journey." intro="Progressive instruction for every stage—from a dancer’s first steps through advanced artistic practice." />
+      <PageHero number="03" label="Bharatanatyam classes" title="Weekly Sunday" accent="Classes" intro="Progressive instruction for every stage—from a dancer’s first steps through advanced artistic practice." />
       <section className="classes section">
         <div className="classes-top"><h2>Find your<br /><em>level.</em></h2><p>Small-group instruction and personal guidance help each dancer build strong technique at a purposeful pace.</p></div>
         <div className="class-list">
           {levels.map((item) => <article key={item.number}><span className="class-number">{item.number}</span><div><h3>{item.title}</h3><p className="class-syllabus">{item.note}</p><p className="class-description">{item.description}</p></div><span className="level">{item.stage}</span><span className="round-arrow">✦</span></article>)}
         </div>
-        <p className="schedule-note">Class times, age guidance, and registration details coming soon.</p>
+      </section>
+      <section className="class-location section">
+        <div className="section-label light"><span>Class details</span></div>
+        <div className="class-location-grid">
+          <div><span>Location</span><h2>NCAC<br /><em>35 Stafford Drive</em></h2></div>
+          <div><span>Timing</span><h2>Sunday<br /><em>Afternoons</em></h2></div>
+        </div>
       </section>
       <Footer />
     </main>

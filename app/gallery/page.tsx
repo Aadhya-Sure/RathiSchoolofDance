@@ -12,7 +12,7 @@ export default function GalleryPage() {
   return (
     <main>
       <Header current="gallery" />
-      <PageHero number="04" label="Gallery" title="Stories in" accent="albums." intro="Explore performances, year-end celebrations, and the moments of dedication that connect our dance community." />
+      <PageHero number="04" label="Gallery" title="Previous" accent="Performances" intro="Explore performances, year-end celebrations, and the moments of dedication that connect our dance community." />
       <section className="albums section">
         <div className="albums-heading"><h2>Our dance<br /><em>archive.</em></h2><p>Five collections of movement, expression, and community. School photographs will be added to each album as they become available.</p></div>
         <div className="album-list">
