@@ -3,6 +3,7 @@ const links = [
   { key: "about", href: "/about", label: "About" },
   { key: "classes", href: "/classes", label: "Classes" },
   { key: "gallery", href: "/gallery", label: "Gallery" },
+  { key: "contact", href: "/contact", label: "Contact" },
 ];
 
 export function Header({ current }: { current: string }) {
@@ -12,7 +13,7 @@ export function Header({ current }: { current: string }) {
       <nav aria-label="Main navigation">
         {links.map((link) => <a className={current === link.key ? "active" : ""} href={link.href} key={link.key} aria-current={current === link.key ? "page" : undefined}>{link.label}</a>)}
       </nav>
-      <a className="header-cta" href="/classes">Find your level <span>↗</span></a>
+      <a className="header-cta" href="/contact">Get in touch <span>↗</span></a>
     </header>
   );
 }

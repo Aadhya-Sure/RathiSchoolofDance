@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 import "./globals.css";
 
 const title = "Rathi School of Dance | Ottawa";
-const description = "Discover classical Indian dance, Bollywood, and creative dance classes at Rathi School of Dance in Ottawa.";
+const description = "Discover Bharatanatyam classes from beginner to post-Arangetram at Rathi School of Dance in Ottawa.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
