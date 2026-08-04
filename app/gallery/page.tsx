@@ -10,7 +10,7 @@ const albums = [
 
 export default function GalleryPage() {
   return (
-    <main>
+    <main className="gallery-page">
       <Header current="gallery" />
       <PageHero number="04" label="Gallery" title="Previous" accent="Performances" intro="Explore performances, year-end celebrations, and the moments of dedication that connect our dance community." />
       <section className="albums section">

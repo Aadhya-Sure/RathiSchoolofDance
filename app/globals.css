@@ -304,6 +304,8 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .director-portrait:before { display:none; }
 .classes-page .page-image { background:#000 url('/ncac-studio.jpg') center/contain no-repeat; }
 .classes-page .page-image:before { display:none; }
+.gallery-page .page-image { background:#170b0d url('/gallery-hero-performance.jpg') center 68%/cover no-repeat; }
+.gallery-page .page-image:before { display:none; }
 .about-page .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
 .about-page .about-image-placeholder:before,.about-page .about-image-placeholder .placeholder-mark,.about-page .about-image-placeholder span { display:none; }
 .class-list { display:block; margin-top:70px; border-top:3px double rgba(128,28,47,.35); }
