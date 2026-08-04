@@ -18,8 +18,8 @@ nav a:hover:after, nav a:focus-visible:after, nav a.active:after { right:0; }
 .header-cta span { margin-left:14px; }
 .hero { min-height:790px; display:grid; grid-template-columns:51% 49%; background:var(--plum); color:var(--cream); }
 .hero-copy { padding:170px 5vw 42px 7vw; display:flex; flex-direction:column; position:relative; z-index:2; }
-.school-name-display { margin:0 0 26px; color:var(--cream); font-family:"Italiana",serif; font-size:clamp(23px,2.2vw,36px); letter-spacing:.035em; }
-.school-name-display span { color:var(--gold); font-size:1.35em; }
+.home-school-title { font-family:"DM Sans",sans-serif; font-size:clamp(64px,6vw,100px); font-weight:600; line-height:.88; letter-spacing:-.065em; text-transform:uppercase; }
+.home-school-title span { color:var(--gold); }
 .eyebrow,.section-label { text-transform:uppercase; letter-spacing:.2em; font-size:11px; font-weight:500; display:flex; align-items:center; gap:14px; }
 .eyebrow span { display:inline-block; width:34px; height:1px; background:var(--orange); }
 h1,h2 { font-family:"Italiana",serif; font-weight:400; margin:0; line-height:.98; }
@@ -87,6 +87,20 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .gallery-detail.one { background-position:10% 25%; }
 .gallery-detail.two { background-position:60% 40%; }
 .gallery-detail.three { grid-column:2 / 4; background-position:center 62%; }
+.albums { background:var(--cream); }
+.albums-heading { display:grid; grid-template-columns:1.1fr .9fr; gap:9vw; align-items:end; padding-bottom:68px; border-bottom:1px solid #cdbfb3; }
+.albums-heading h2 { font-size:clamp(50px,5.4vw,82px); }
+.albums-heading p { max-width:500px; margin:0; color:#76665d; font-size:16px; line-height:1.8; }
+.album-list { display:flex; flex-direction:column; }
+.album { display:grid; grid-template-columns:minmax(300px,42%) 1fr; gap:6vw; align-items:center; padding:46px 0; border-bottom:1px solid #cdbfb3; }
+.album-image { position:relative; min-height:280px; background-image:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.46)),url('/dance-hero.jpg'); background-size:cover; overflow:hidden; }
+.album-image:after { content:""; position:absolute; inset:14px; border:1px solid rgba(255,255,255,.35); }
+.album-image span { position:absolute; z-index:2; left:28px; bottom:24px; color:white; font-family:"Italiana",serif; font-size:36px; }
+.album-copy { max-width:650px; }
+.album-tag,.album-status { color:var(--orange); text-transform:uppercase; letter-spacing:.18em; font-size:9px; font-weight:600; }
+.album-copy h3 { margin:16px 0 20px; color:var(--plum); font-family:"Italiana",serif; font-size:clamp(38px,4vw,58px); font-weight:400; }
+.album-copy > p:not(.album-tag) { margin:0 0 25px; color:#76665d; font-size:14px; line-height:1.8; }
+.album-status { display:inline-block; padding-bottom:6px; border-bottom:1px solid #cfae9b; }
 .director { display:grid; grid-template-columns:.85fr 1.15fr; gap:9vw; align-items:center; background:var(--plum); color:var(--cream); }
 .director-portrait { min-height:650px; display:grid; place-items:end start; padding:28px; background:linear-gradient(155deg,rgba(232,165,43,.12),rgba(59,9,41,.45)),url('/dance-hero.jpg') 38% center/cover; }
 .director-portrait span { text-transform:uppercase; letter-spacing:.18em; line-height:1.7; font-size:9px; color:rgba(246,240,228,.62); }
@@ -103,13 +117,13 @@ footer > p { color:rgba(255,255,255,.75); margin:20px 0 30px; }
   .site-header { height:116px; padding:14px 22px 12px; grid-template-columns:1fr; align-content:center; gap:12px; } .site-header .brand { justify-self:center; } nav { display:flex; justify-content:center; gap:24px; font-size:9px; } .header-cta { display:none; }
   .hero { display:block; min-height:0; } .hero-copy { min-height:700px; padding:130px 8vw 42px; } .hero-visual { height:560px; }
   .page-hero { padding-top:116px; grid-template-columns:1fr; } .page-hero-copy { padding:80px 8vw; } .page-hero-art { height:430px; }
-  .about-heading,.gallery-top,.classes-top { grid-template-columns:1fr; gap:25px; } .values { grid-template-columns:1fr; gap:30px; } .director { grid-template-columns:1fr; } .director-portrait { min-height:520px; }
+  .about-heading,.gallery-top,.classes-top,.albums-heading { grid-template-columns:1fr; gap:25px; } .values { grid-template-columns:1fr; gap:30px; } .director { grid-template-columns:1fr; } .director-portrait { min-height:520px; }
   .class-list article { grid-template-columns:42px 1fr 44px; } .level { display:none; }
   .gallery-grid { height:720px; grid-template-columns:1fr 1fr; grid-template-rows:2fr 1fr 1fr; } .gallery-main { grid-column:1/3; grid-row:auto; } .gallery-detail.three { grid-column:1/3; }
 }
 @media (max-width:560px) {
   .section { padding:80px 24px; } h1 { font-size:57px; } .hero-copy { padding:155px 24px 42px; min-height:720px; } .hero-visual { height:460px; } nav { gap:14px; } .brand-mark { width:36px; height:36px; }
   .hero-actions { align-items:flex-start; flex-direction:column; } .hero-foot { gap:12px; flex-wrap:wrap; } .marquee span:nth-of-type(even),.marquee b:nth-of-type(even) { display:none; }
-  .home-cards { grid-template-columns:1fr; } .page-hero-copy { padding:70px 24px; } .page-hero-art { height:350px; } .director-portrait { min-height:430px; } .gallery-grid { height:650px; } .footer-bottom { gap:14px; flex-direction:column; }
+  .home-cards { grid-template-columns:1fr; } .page-hero-copy { padding:70px 24px; } .page-hero-art { height:350px; } .director-portrait { min-height:430px; } .gallery-grid { height:650px; } .album { grid-template-columns:1fr; gap:28px; padding:34px 0; } .album-image { min-height:230px; } .footer-bottom { gap:14px; flex-direction:column; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none !important; } }

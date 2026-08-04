@@ -6,9 +6,8 @@ export default function Home() {
       <Header current="home" />
       <section className="hero">
         <div className="hero-copy">
-          <p className="school-name-display"><span>Rathi</span> School of Dance</p>
           <p className="eyebrow"><span /> Ottawa’s home for Bharatanatyam</p>
-          <h1>Where tradition<br />finds its <em>rhythm.</em></h1>
+          <h1 className="home-school-title"><span>Rathi</span><br />School of Dance</h1>
           <p className="intro">A welcoming home for dancers in Ottawa to discover confidence, culture, and the joy of movement.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="/classes">Explore classes <span>→</span></a>
