@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <h1 className="home-school-title"><span>Rathi</span><br />School of Dance</h1>
-          <p className="intro">A welcoming home for dancers in Ottawa to discover confidence, culture, and the joy of movement.</p>
+          <p className="intro">A school preserving the tradition in Ottawa for the past 40 years.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="/classes">Explore classes <span>→</span></a>
             <a className="text-link" href="/about">Our story <span>↘</span></a>
