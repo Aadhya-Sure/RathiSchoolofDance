@@ -137,6 +137,9 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .album-image { position:relative; min-height:280px; border:1px solid rgba(59,9,41,.35); background:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.46)); overflow:hidden; }
 .album-image:before { content:"Album image placeholder"; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); color:rgba(246,240,228,.78); text-align:center; text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
 .album-image:after { content:""; position:absolute; inset:14px; border:1px solid rgba(255,255,255,.35); }
+.album-image.has-image { background-size:cover; background-repeat:no-repeat; }
+.album-image.has-image:before { display:none; }
+.album-image.has-image span { padding:5px 9px; background:rgba(128,28,47,.82); }
 .album-image span { position:absolute; z-index:2; left:28px; bottom:24px; color:white; font-family:"Italiana",serif; font-size:36px; }
 .album-copy { max-width:650px; }
 .album-tag,.album-status { color:var(--orange); text-transform:uppercase; letter-spacing:.18em; font-size:9px; font-weight:600; }
