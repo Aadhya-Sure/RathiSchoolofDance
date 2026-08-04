@@ -25,7 +25,7 @@ nav a:hover:after, nav a:focus-visible:after, nav a.active:after { right:0; }
 h1,h2 { font-family:"Italiana",serif; font-weight:400; margin:0; line-height:.98; }
 h1 { font-size:clamp(64px,6.4vw,105px); letter-spacing:-.03em; margin:42px 0 30px; }
 h1 em,h2 em { color:var(--orange); font-weight:400; }
-.intro { max-width:470px; color:rgba(246,240,228,.74); font-size:17px; line-height:1.75; font-weight:300; }
+.intro { max-width:470px; color:rgba(246,240,228,.74); font-size:17px; line-height:1.75; font-weight:300; text-align:justify; }
 .hero-actions { display:flex; align-items:center; gap:34px; margin-top:30px; }
 .button { display:inline-flex; align-items:center; justify-content:space-between; gap:34px; padding:16px 22px; min-width:190px; text-transform:uppercase; letter-spacing:.13em; font-size:11px; font-weight:600; transition:.25s; }
 .button-primary { background:var(--orange); color:white; }
@@ -63,11 +63,11 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .bharatanatyam-placeholder span { position:relative; z-index:1; line-height:1.8; }
 .bharatanatyam-copy .section-label { margin-bottom:35px; }
 .bharatanatyam-copy h2 { margin-bottom:30px; font-size:clamp(48px,5.2vw,78px); }
-.bharatanatyam-copy p { max-width:650px; color:#76665d; font-size:15px; line-height:1.85; }
+.bharatanatyam-copy p { max-width:650px; color:#76665d; font-size:15px; line-height:1.85; text-align:justify; }
 .pandanallur-section { display:grid; grid-template-columns:1.1fr .9fr; gap:8vw; align-items:center; background:var(--plum); color:var(--cream); }
 .pandanallur-copy .section-label { margin-bottom:35px; }
 .pandanallur-copy h2 { margin-bottom:30px; font-size:clamp(48px,5.2vw,78px); }
-.pandanallur-copy p { max-width:650px; color:rgba(246,240,228,.7); font-size:15px; line-height:1.85; }
+.pandanallur-copy p { max-width:650px; color:rgba(246,240,228,.7); font-size:15px; line-height:1.85; text-align:justify; }
 .pandanallur-placeholder { position:relative; min-height:560px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:28px; overflow:hidden; border:1px solid rgba(246,240,228,.3); background:radial-gradient(circle at 36% 28%,rgba(232,165,43,.28),transparent 27%),linear-gradient(145deg,var(--plum-light),#25061c); color:rgba(246,240,228,.65); text-align:center; text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
 .pandanallur-placeholder:before { content:""; position:absolute; width:72%; aspect-ratio:1; border:1px solid rgba(232,165,43,.3); border-radius:50%; }
 .pandanallur-placeholder span { position:relative; z-index:1; line-height:1.8; }
@@ -75,7 +75,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .page-hero-copy { padding:100px 7vw 75px; display:flex; flex-direction:column; justify-content:center; }
 .page-hero-copy .section-label { margin-bottom:35px; }
 .page-hero-copy h1 { margin:0 0 32px; font-size:clamp(62px,6vw,94px); }
-.page-hero-copy p { max-width:570px; color:rgba(246,240,228,.68); font-size:16px; line-height:1.8; }
+.page-hero-copy p { max-width:570px; color:rgba(246,240,228,.68); font-size:16px; line-height:1.8; text-align:justify; }
 .page-hero-art { position:relative; overflow:hidden; background:linear-gradient(135deg,var(--orange),var(--gold)); }
 .page-hero-art .sun-disc { width:90%; right:-20%; top:12%; }
 .page-image { position:absolute; inset:8% 8%; z-index:1; display:grid; place-items:center; border:1px solid rgba(59,9,41,.48); background:linear-gradient(145deg,rgba(59,9,41,.08),rgba(246,240,228,.16)); }
@@ -102,12 +102,12 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .values p { color:#76665d; line-height:1.7; font-size:14px; max-width:330px; }
 .classes { background:var(--plum); color:var(--cream); }
 .section-label.light { color:rgba(246,240,228,.55); }
-.classes-top p { color:rgba(246,240,228,.6); }
+.classes-top p { color:rgba(246,240,228,.6); text-align:justify; }
 .class-list { margin-top:80px; border-top:1px solid rgba(246,240,228,.25); }
 .class-list article { display:grid; grid-template-columns:70px 1fr 220px 48px; align-items:center; gap:20px; padding:26px 0; border-bottom:1px solid rgba(246,240,228,.2); }
 .class-list h3 { font-family:"Italiana",serif; font-size:32px; margin:0 0 5px; font-weight:400; }
 .class-list p,.level { color:rgba(246,240,228,.48); text-transform:uppercase; letter-spacing:.14em; font-size:9px; }
-.class-list .class-description { margin:12px 0 0; max-width:650px; color:rgba(246,240,228,.66); text-transform:none; letter-spacing:0; line-height:1.55; font-size:13px; }
+.class-list .class-description { margin:12px 0 0; max-width:650px; color:rgba(246,240,228,.66); text-transform:none; letter-spacing:0; line-height:1.55; font-size:13px; text-align:justify; }
 .round-arrow { border:1px solid rgba(246,240,228,.3); width:44px; height:44px; border-radius:50%; display:grid; place-items:center; }
 .schedule-note { color:rgba(246,240,228,.45); text-align:right; font-size:11px; letter-spacing:.08em; margin-top:24px; }
 .classes-page .classes { background:var(--cream); color:var(--ink); }
@@ -130,7 +130,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .albums { background:var(--cream); }
 .albums-heading { display:grid; grid-template-columns:1.1fr .9fr; gap:9vw; align-items:end; padding-bottom:68px; border-bottom:1px solid #cdbfb3; }
 .albums-heading h2 { font-size:clamp(50px,5.4vw,82px); }
-.albums-heading p { max-width:500px; margin:0; color:#76665d; font-size:16px; line-height:1.8; }
+.albums-heading p { max-width:500px; margin:0; color:#76665d; font-size:16px; line-height:1.8; text-align:justify; }
 .album-list { display:flex; flex-direction:column; }
 .album { display:grid; grid-template-columns:minmax(300px,42%) 1fr; gap:6vw; align-items:center; padding:46px 0; border-bottom:1px solid #cdbfb3; }
 .album-image { position:relative; min-height:280px; border:1px solid rgba(59,9,41,.35); background:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.46)); overflow:hidden; }
@@ -140,18 +140,18 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .album-copy { max-width:650px; }
 .album-tag,.album-status { color:var(--orange); text-transform:uppercase; letter-spacing:.18em; font-size:9px; font-weight:600; }
 .album-copy h3 { margin:16px 0 20px; color:var(--plum); font-family:"Italiana",serif; font-size:clamp(38px,4vw,58px); font-weight:400; }
-.album-copy > p:not(.album-tag) { margin:0 0 25px; color:#76665d; font-size:14px; line-height:1.8; }
+.album-copy > p:not(.album-tag) { margin:0 0 25px; color:#76665d; font-size:14px; line-height:1.8; text-align:justify; }
 .album-status { display:inline-block; padding-bottom:6px; border-bottom:1px solid #cfae9b; }
 .director { display:grid; grid-template-columns:.95fr 1.05fr; gap:7vw; align-items:center; background:var(--cream); color:var(--ink); }
 .director-portrait { min-height:0; aspect-ratio:.82 / 1; display:grid; place-items:end start; padding:28px; background:linear-gradient(155deg,rgba(232,165,43,.06),rgba(59,9,41,.1)),url('/sheela-chandrashekar.jpg') 72% center/cover; }
 .director-portrait span { text-transform:uppercase; letter-spacing:.18em; line-height:1.7; font-size:9px; color:rgba(246,240,228,.62); }
 .director-copy h2 { font-size:clamp(54px,5.4vw,82px); margin-bottom:35px; }
 .director-copy .section-label.light { color:#8a796f; }
-.director-copy p { color:#76665d; font-size:15px; line-height:1.85; max-width:620px; }
+.director-copy p { color:#76665d; font-size:15px; line-height:1.85; max-width:620px; text-align:justify; }
 .director-copy small { display:block; margin-top:28px; color:var(--gold); text-transform:uppercase; letter-spacing:.14em; font-size:8px; }
 .contact-section { display:grid; grid-template-columns:.9fr 1.1fr; gap:10vw; align-items:start; }
 .contact-details h2,.contact-form-wrap h2 { font-size:clamp(48px,5vw,76px); }
-.contact-details > p { max-width:560px; margin:30px 0 46px; color:#76665d; font-size:15px; line-height:1.85; }
+.contact-details > p { max-width:560px; margin:30px 0 46px; color:#76665d; font-size:15px; line-height:1.85; text-align:justify; }
 .contact-details dl { margin:0; border-top:1px solid #cdbfb3; }
 .contact-details dl div { display:grid; grid-template-columns:150px 1fr; gap:20px; padding:20px 0; border-bottom:1px solid #cdbfb3; }
 .contact-details dt,.form-kicker { color:var(--orange); text-transform:uppercase; letter-spacing:.18em; font-size:9px; font-weight:600; }

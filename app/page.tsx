@@ -27,17 +27,14 @@ export default function Home() {
         <div className="bharatanatyam-copy">
           <div className="section-label"><span>01</span> The art form</div>
           <h2>What is<br /><em>Bharatanatyam?</em></h2>
-          <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India. Its movement language brings together precise rhythmic footwork, sculptural poses, codified hand gestures called mudras, and expressive storytelling known as abhinaya.</p>
-          <p>Traditionally accompanied by Carnatic music, the form unites pure dance, expression, and dramatic interpretation. Dancers train progressively in posture, rhythm, coordination, repertoire, and the relationship between movement and meaning.</p>
-          <p>Over generations, Bharatanatyam moved from temple and court traditions to the modern stage and is now taught and performed around the world. Its practice remains both disciplined and evolving, carrying cultural memory forward through each dancer.</p>
+          <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India. Its movement language brings together precise rhythmic footwork, sculptural poses, codified hand gestures called mudras, and expressive storytelling known as abhinaya. Traditionally accompanied by Carnatic music, the form unites pure dance, expression, and dramatic interpretation. Dancers train progressively in posture, rhythm, coordination, repertoire, and the relationship between movement and meaning. Over generations, Bharatanatyam moved from temple and court traditions to the modern stage and is now taught and performed around the world. Its practice remains both disciplined and evolving, carrying cultural memory forward through each dancer.</p>
         </div>
       </section>
       <section className="pandanallur-section section">
         <div className="pandanallur-copy">
           <div className="section-label light"><span>02</span> Our tradition</div>
           <h2>Pandanallur<br /><em>Style.</em></h2>
-          <p>The Pandanallur style is a distinguished tradition within Bharatanatyam, admired for its clean lines, precise geometry, and measured elegance. Its choreography gives careful attention to posture, rhythmic clarity, and the graceful use of space.</p>
-          <p>Students learn to balance strength and restraint while developing expressive storytelling through gesture and movement. At Rathi School of Dance, this approach provides a thoughtful foundation from which every dancer can grow in discipline, confidence, and artistry.</p>
+          <p>The Pandanallur style is a distinguished tradition within Bharatanatyam, admired for its clean lines, precise geometry, and measured elegance. Its choreography gives careful attention to posture, rhythmic clarity, and the graceful use of space. Students learn to balance strength and restraint while developing expressive storytelling through gesture and movement. At Rathi School of Dance, this approach provides a thoughtful foundation from which every dancer can grow in discipline, confidence, and artistry.</p>
         </div>
         <div className="pandanallur-placeholder" role="img" aria-label="Placeholder for a Pandanallur style photograph">
           <div className="placeholder-mark">P</div>
