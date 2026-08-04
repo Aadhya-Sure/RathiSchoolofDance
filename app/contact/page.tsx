@@ -2,7 +2,7 @@ import { Footer, Header, PageHero } from "../site-components";
 
 export default function ContactPage() {
   return (
-    <main>
+    <main className="contact-page">
       <Header current="contact" />
       <PageHero number="05" label="Contact" title="Let’s begin a" accent="conversation." intro="Ask about classes, levels, registration, or finding the right place to begin your Bharatanatyam journey." />
       <section className="contact-section section">

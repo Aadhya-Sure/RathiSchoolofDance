@@ -18,10 +18,7 @@ export default function Home() {
       </section>
       <section className="marquee" aria-label="School values"><span>DISCIPLINE</span><b>✦</b><span>JOY</span><b>✦</b><span>COMMUNITY</span><b>✦</b><span>ARTISTRY</span></section>
       <section className="bharatanatyam-intro section">
-        <div className="bharatanatyam-placeholder" role="img" aria-label="Placeholder for a Bharatanatyam photograph">
-          <div className="placeholder-mark">B</div>
-          <span>Bharatanatyam image<br />coming soon</span>
-        </div>
+        <div className="bharatanatyam-placeholder" role="img" aria-label="Historic South Indian temple associated with the cultural roots of Bharatanatyam" />
         <div className="bharatanatyam-copy">
           <div className="section-label"><span>01</span> The art form</div>
           <h2>What is<br /><em>Bharatanatyam?</em></h2>
@@ -32,7 +29,6 @@ export default function Home() {
         <div className="pandanallur-copy">
           <div className="section-label light"><span>02</span> Our tradition</div>
           <h2>Pandanallur<br /><em>Style.</em></h2>
-          <p>The Pandanallur style is a distinguished tradition within Bharatanatyam, admired for its clean lines, precise geometry, and measured elegance. Its choreography gives careful attention to posture, rhythmic clarity, and the graceful use of space. Students learn to balance strength and restraint while developing expressive storytelling through gesture and movement. At Rathi School of Dance, this approach provides a thoughtful foundation from which every dancer can grow in discipline, confidence, and artistry.</p>
         </div>
         <div className="pandanallur-placeholder" role="img" aria-label="Placeholder for a Pandanallur style photograph">
           <div className="placeholder-mark">P</div>

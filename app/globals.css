@@ -306,6 +306,11 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .classes-page .page-image:before { display:none; }
 .gallery-page .page-image { background:#170b0d url('/gallery-hero-performance.jpg') center 68%/cover no-repeat; }
 .gallery-page .page-image:before { display:none; }
+.contact-page .page-hero { grid-template-columns:1fr; }
+.contact-page .page-hero-copy { width:100%; max-width:1100px; margin:0 auto; }
+.contact-page .page-hero-art { display:none; }
+.bharatanatyam-placeholder { background:#170b0d url('/bharatanatyam-temple.jpeg') center/cover no-repeat; }
+.bharatanatyam-placeholder:before { display:none; }
 .about-page .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
 .about-page .about-image-placeholder:before,.about-page .about-image-placeholder .placeholder-mark,.about-page .about-image-placeholder span { display:none; }
 .class-list { display:block; margin-top:70px; border-top:3px double rgba(128,28,47,.35); }
