@@ -313,6 +313,11 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .bharatanatyam-placeholder:before { display:none; }
 .about-page .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
 .about-page .about-image-placeholder:before,.about-page .about-image-placeholder .placeholder-mark,.about-page .about-image-placeholder span { display:none; }
+.home-school-section { padding-top:110px; }
+.home-school-section .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
+.home-school-section .about-image-placeholder:before { display:none; }
+.about-art-form { padding-top:190px; }
+.about-art-form h1 { margin:0 0 30px; font-size:clamp(58px,6vw,92px); }
 .class-list { display:block; margin-top:70px; border-top:3px double rgba(128,28,47,.35); }
 .class-list article { padding:34px 10px; border:0; border-bottom:1px solid rgba(128,28,47,.28); background:transparent; box-shadow:none; }
 .class-list article:hover { transform:none; background:rgba(225,169,40,.07); box-shadow:none; }

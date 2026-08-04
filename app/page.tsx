@@ -17,13 +17,17 @@ export default function Home() {
         </div>
       </section>
       <section className="marquee" aria-label="School values"><span>DISCIPLINE</span><b>✦</b><span>JOY</span><b>✦</b><span>COMMUNITY</span><b>✦</b><span>ARTISTRY</span></section>
-      <section className="bharatanatyam-intro section">
-        <div className="bharatanatyam-placeholder" role="img" aria-label="Historic South Indian temple associated with the cultural roots of Bharatanatyam" />
-        <div className="bharatanatyam-copy">
-          <div className="section-label"><span>01</span> The art form</div>
-          <h2>What is<br /><em>Bharatanatyam?</em></h2>
-          <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India. Its movement language brings together precise rhythmic footwork, sculptural poses, codified hand gestures called mudras, and expressive storytelling known as abhinaya. Traditionally accompanied by Carnatic music, the form unites pure dance, expression, and dramatic interpretation. Dancers train progressively in posture, rhythm, coordination, repertoire, and the relationship between movement and meaning. Over generations, Bharatanatyam moved from temple and court traditions to the modern stage and is now taught and performed around the world. Its practice remains both disciplined and evolving, carrying cultural memory forward through each dancer.</p>
+      <section className="about-school-hero home-school-section">
+        <div className="about-school-copy">
+          <div className="section-label light"><span>01</span> Our school</div>
+          <h2>Rathi School<br /><em>of Dance.</em></h2>
+          <p>Rathi School of Dance is dedicated to producing, developing, and presenting the classical Indian dance form Bharata Natyam in the Pandanallur style. The school was founded in 1980 by Artistic Director Sheela Chandrashekar, acclaimed for her excellence as a dancer, choreographer, and teacher. Founded with a vision to propagate this art form among future generations of Canadians, the school remains deeply committed to its teaching, practice, and performance. Following a regular school year from September through June, more than 60 students learn and deepen their Bharata Natyam skills as they progress toward their Ranga Pravesh or Arangetram. Over the last four decades, more than 40 students have completed their Ranga Pravesh through Rathi School of Dance, and Sheela continues to guide students intensively each year.</p>
         </div>
+        <div className="about-image-placeholder" role="img" aria-label="Rathi School of Dance archive photograph" />
+      </section>
+      <section className="director section">
+        <div className="director-portrait" role="img" aria-label="Artistic Director Sheela Chandrashekar" />
+        <div className="director-copy"><div className="section-label light"><span>Artistic Director</span></div><h2>Sheela<br /><em>Chandrashekar</em></h2><p>Sheela Chandrashekar is a dedicated Bharatanatyam artist and educator whose teaching brings together rigorous classical foundations and a deeply personal approach to expression. She had her initial foundation in the art from the late Guru Sri Muthaiah Pillai of Pandanallur and later trained with the famous dancer couple from Bangalore, India, the late Prof. U.S. Krishna Rao and the late Mrs. Chandra Bhaga Devi. Under their able guidance and careful grooming, Sheela attained professional standards in performance and choreography. She also trained in Abhinaya under Asthaana Vidhushi Dr. Venkatalakshamma of Mysore. Through Rathi School of Dance, Sheela is committed to nurturing the next generation of artists in Ottawa while building a welcoming community around the beauty and depth of Bharatanatyam.</p></div>
       </section>
       <Footer />
     </main>
