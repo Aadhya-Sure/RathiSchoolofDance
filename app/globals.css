@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap');
 @import "tailwindcss";
 
-:root { --cream:#fff7e8; --plum:#681c2b; --plum-light:#9b2838; --orange:#c44a32; --gold:#d4af37; --ink:#3b2023; }
+:root { --cream:#fff5df; --plum:#801c2f; --plum-light:#b32c3c; --orange:#d44732; --gold:#e1a928; --ink:#3e1b20; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--cream); color:var(--ink); font-family:"DM Sans",sans-serif; }
@@ -239,6 +239,22 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .round-arrow { box-shadow:0 0 0 3px rgba(212,175,55,.28); }
 .album { border-color:rgba(104,28,43,.14); }
 .contact-form-wrap { box-shadow:inset 0 0 0 8px rgba(212,175,55,.1),12px 12px 0 rgba(212,175,55,.2); }
+
+/* Rich ruby and saffron-gold refinement */
+.hero-visual,.page-hero-art { background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.08) 0,rgba(255,255,255,.08) 1px,transparent 1px,transparent 14px),linear-gradient(120deg,#9d1830,#d44732 56%,#e1a928); }
+.hero-visual:after { background:linear-gradient(90deg,rgba(128,28,47,.5),transparent 45%),linear-gradient(0deg,rgba(128,28,47,.4),transparent 55%); }
+.site-header { border-bottom-color:rgba(225,169,40,.66); }
+.brand-mark { box-shadow:0 0 0 3px rgba(225,169,40,.24),0 0 0 4px rgba(255,245,223,.22); }
+.header-cta { border-color:rgba(225,169,40,.92); }
+.image-frame,.page-image,.about-image-placeholder,.bharatanatyam-placeholder,.pandanallur-placeholder,.director-portrait,.album-image { outline-color:rgba(225,169,40,.55); box-shadow:9px 9px 0 rgba(225,169,40,.24),18px 18px 0 rgba(128,28,47,.11); }
+.bharatanatyam-placeholder { background:radial-gradient(circle at 64% 27%,rgba(225,169,40,.4),transparent 28%),linear-gradient(145deg,#fff5df,#ecd39d); color:rgba(128,28,47,.78); }
+.pandanallur-placeholder,.about-image-placeholder { background:radial-gradient(circle at 36% 28%,rgba(225,169,40,.42),transparent 27%),linear-gradient(145deg,var(--plum-light),#801c2f); }
+.sun-disc { box-shadow:0 0 90px rgba(225,169,40,.42); }
+.pandanallur-placeholder:before,.about-image-placeholder:before { border-color:rgba(225,169,40,.46); }
+.album-image { background:linear-gradient(135deg,rgba(225,169,40,.46),rgba(128,28,47,.86)); }
+.gallery-grid figure { background:linear-gradient(135deg,rgba(225,169,40,.35),rgba(128,28,47,.62)); }
+.round-arrow { box-shadow:0 0 0 3px rgba(225,169,40,.34); }
+.contact-form-wrap { box-shadow:inset 0 0 0 8px rgba(225,169,40,.13),12px 12px 0 rgba(225,169,40,.24); }
 footer { padding:95px 8vw 30px; background:var(--orange); color:white; text-align:center; }
 .footer-brand { display:flex; flex-direction:column; align-items:center; gap:28px; }
 .footer-brand h2 { font-size:clamp(50px,6vw,88px); }
