@@ -37,7 +37,8 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .hero-visual { position:relative; overflow:hidden; background:linear-gradient(120deg,#d47043,#eca32d); }
 .hero-visual:after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,rgba(59,9,41,.4),transparent 45%),linear-gradient(0deg,rgba(59,9,41,.35),transparent 55%); }
 .sun-disc { position:absolute; width:78%; aspect-ratio:1; border-radius:50%; background:#f3b33b; right:-10%; top:9%; box-shadow:0 0 80px rgba(255,204,91,.35); }
-.image-frame { position:absolute; z-index:1; inset:8% 7% 0 2%; background:url('/dance-hero.jpg') center/cover no-repeat; mix-blend-mode:multiply; filter:saturate(.8) contrast(1.1); }
+.image-frame { position:absolute; z-index:1; inset:8% 7% 8% 2%; display:grid; place-items:center; border:1px solid rgba(59,9,41,.5); background:linear-gradient(145deg,rgba(59,9,41,.08),rgba(246,240,228,.18)); }
+.image-frame:before { content:"Image placeholder"; padding:12px 16px; border:1px solid rgba(59,9,41,.45); color:rgba(59,9,41,.7); text-transform:uppercase; letter-spacing:.2em; font-size:9px; }
 .vertical-note { position:absolute; z-index:3; right:20px; bottom:45px; writing-mode:vertical-rl; font-size:8px; letter-spacing:.25em; color:rgba(255,255,255,.7); }
 .marquee { background:var(--orange); color:white; padding:17px 4vw; display:flex; justify-content:space-around; align-items:center; letter-spacing:.22em; font-size:11px; }
 .marquee b { color:var(--gold); }
@@ -51,7 +52,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .dark-link span { margin-left:18px; }
 .home-cards { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:82px; }
 .home-cards a { min-height:300px; padding:40px; display:flex; flex-direction:column; justify-content:space-between; color:var(--cream); background:var(--plum); transition:.25s; }
-.home-cards a:last-child { background:linear-gradient(rgba(59,9,41,.2),rgba(59,9,41,.65)),url('/dance-hero.jpg') center/cover; }
+.home-cards a:last-child { border:1px solid rgba(246,240,228,.25); background:var(--plum-light); }
 .home-cards a:hover { transform:translateY(-4px); }
 .home-cards span,.home-cards b { text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
 .home-cards h3 { font-family:"Italiana",serif; font-size:34px; max-width:450px; font-weight:400; }
@@ -62,7 +63,8 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .page-hero-copy p { max-width:570px; color:rgba(246,240,228,.68); font-size:16px; line-height:1.8; }
 .page-hero-art { position:relative; overflow:hidden; background:linear-gradient(135deg,var(--orange),var(--gold)); }
 .page-hero-art .sun-disc { width:90%; right:-20%; top:12%; }
-.page-image { position:absolute; inset:4% 0 0 -18%; z-index:1; background:url('/dance-hero.jpg') center/cover; mix-blend-mode:multiply; filter:saturate(.75); }
+.page-image { position:absolute; inset:8% 8%; z-index:1; display:grid; place-items:center; border:1px solid rgba(59,9,41,.48); background:linear-gradient(145deg,rgba(59,9,41,.08),rgba(246,240,228,.16)); }
+.page-image:before { content:"Image placeholder"; padding:12px 16px; border:1px solid rgba(59,9,41,.45); color:rgba(59,9,41,.7); text-transform:uppercase; letter-spacing:.2em; font-size:9px; }
 .about-page .site-header { color:var(--cream); border-bottom-color:rgba(246,240,228,.16); }
 .about-page .page-hero { grid-template-columns:1fr; background:var(--plum); color:var(--cream); }
 .about-page .page-hero-copy { max-width:1120px; width:100%; margin:0 auto; padding-left:8vw; padding-right:8vw; }
@@ -95,7 +97,7 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .schedule-note { color:rgba(246,240,228,.45); text-align:right; font-size:11px; letter-spacing:.08em; margin-top:24px; }
 .gallery-top { align-items:end; }
 .gallery-grid { margin-top:70px; height:620px; display:grid; grid-template-columns:1.5fr 1fr 1fr; grid-template-rows:1fr 1fr; gap:12px; }
-.gallery-grid figure { margin:0; position:relative; overflow:hidden; background-image:linear-gradient(135deg,rgba(232,165,43,.25),rgba(59,9,41,.45)),url('/dance-hero.jpg'); background-size:cover; }
+.gallery-grid figure { margin:0; position:relative; overflow:hidden; border:1px solid rgba(59,9,41,.28); background:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.3)); }
 .gallery-grid figure:after { content:""; position:absolute; inset:0; border:1px solid rgba(255,255,255,.15); }
 .gallery-grid figcaption { position:absolute; z-index:2; bottom:18px; left:20px; color:white; text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
 .gallery-main { grid-row:1 / 3; background-position:center; }
@@ -108,7 +110,8 @@ h1 em,h2 em { color:var(--orange); font-weight:400; }
 .albums-heading p { max-width:500px; margin:0; color:#76665d; font-size:16px; line-height:1.8; }
 .album-list { display:flex; flex-direction:column; }
 .album { display:grid; grid-template-columns:minmax(300px,42%) 1fr; gap:6vw; align-items:center; padding:46px 0; border-bottom:1px solid #cdbfb3; }
-.album-image { position:relative; min-height:280px; background-image:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.46)),url('/dance-hero.jpg'); background-size:cover; overflow:hidden; }
+.album-image { position:relative; min-height:280px; border:1px solid rgba(59,9,41,.35); background:linear-gradient(135deg,rgba(232,165,43,.18),rgba(59,9,41,.46)); overflow:hidden; }
+.album-image:before { content:"Album image placeholder"; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); color:rgba(246,240,228,.78); text-align:center; text-transform:uppercase; letter-spacing:.18em; font-size:9px; }
 .album-image:after { content:""; position:absolute; inset:14px; border:1px solid rgba(255,255,255,.35); }
 .album-image span { position:absolute; z-index:2; left:28px; bottom:24px; color:white; font-family:"Italiana",serif; font-size:36px; }
 .album-copy { max-width:650px; }
