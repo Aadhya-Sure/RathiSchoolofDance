@@ -345,3 +345,31 @@ footer > p { color:rgba(255,255,255,.75); margin:20px 0 30px; }
   .home-cards { grid-template-columns:1fr; } .bharatanatyam-placeholder,.pandanallur-placeholder { min-height:330px; } .page-hero-copy { padding:70px 24px; } .page-hero-art { height:350px; } .about-school-hero { padding:150px 24px 70px; } .about-image-placeholder { min-height:360px; } .director-portrait { min-height:0; } .gallery-grid { height:650px; } .album { grid-template-columns:1fr; gap:28px; padding:34px 0; } .album-image { min-height:230px; } .contact-form-wrap { padding:34px 24px; } .contact-details dl div { grid-template-columns:1fr; gap:7px; } .footer-bottom { gap:14px; flex-direction:column; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none !important; } }
+
+/* Readability refinement */
+.brand { font-size:17px; }
+nav { font-size:11px; }
+.section-label { font-size:11px; line-height:1.6; }
+.about-school-copy .section-label,
+.director-copy .section-label { font-size:14px; letter-spacing:.14em; }
+.intro { font-size:26px; }
+.page-hero-copy p { font-size:24px; }
+.bharatanatyam-copy p,
+.about-school-copy p,
+.director-copy p,
+.albums-heading p,
+.album-copy > p:not(.album-tag),
+.classes-top p,
+.contact-details > p { font-size:16px; line-height:2; }
+.album-tag,.album-status,.contact-details dt,.form-kicker { font-size:11px; }
+.contact-details dd { font-size:16px; }
+.contact-form-wrap label { font-size:11px; }
+.contact-form-wrap input,.contact-form-wrap textarea { font-size:17px; }
+.form-note { font-size:12px; }
+
+@media (max-width:560px) {
+  nav { font-size:9px; }
+  .brand { font-size:15px; }
+  .intro { font-size:23px; }
+  .page-hero-copy p { font-size:21px; }
+}

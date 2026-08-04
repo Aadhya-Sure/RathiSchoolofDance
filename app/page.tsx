@@ -25,16 +25,6 @@ export default function Home() {
           <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India. Its movement language brings together precise rhythmic footwork, sculptural poses, codified hand gestures called mudras, and expressive storytelling known as abhinaya. Traditionally accompanied by Carnatic music, the form unites pure dance, expression, and dramatic interpretation. Dancers train progressively in posture, rhythm, coordination, repertoire, and the relationship between movement and meaning. Over generations, Bharatanatyam moved from temple and court traditions to the modern stage and is now taught and performed around the world. Its practice remains both disciplined and evolving, carrying cultural memory forward through each dancer.</p>
         </div>
       </section>
-      <section className="pandanallur-section section">
-        <div className="pandanallur-copy">
-          <div className="section-label light"><span>02</span> Our tradition</div>
-          <h2>Pandanallur<br /><em>Style.</em></h2>
-        </div>
-        <div className="pandanallur-placeholder" role="img" aria-label="Placeholder for a Pandanallur style photograph">
-          <div className="placeholder-mark">P</div>
-          <span>Pandanallur image<br />coming soon</span>
-        </div>
-      </section>
       <Footer />
     </main>
   );
