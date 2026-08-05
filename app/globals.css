@@ -314,6 +314,8 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .about-page .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
 .about-page .about-image-placeholder:before,.about-page .about-image-placeholder .placeholder-mark,.about-page .about-image-placeholder span { display:none; }
 .home-school-section { padding-top:110px; }
+.home-school-section .about-school-copy { display:flex; align-items:center; }
+.home-school-section .about-school-copy p { margin:0; }
 .home-school-section .about-image-placeholder { background:url('/rathi-school-art.jpg') center/cover no-repeat; }
 .home-school-section .about-image-placeholder:before { display:none; }
 .about-art-form { padding-top:190px; }

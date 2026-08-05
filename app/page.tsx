@@ -19,8 +19,6 @@ export default function Home() {
       <section className="marquee" aria-label="School values"><span>DISCIPLINE</span><b>✦</b><span>JOY</span><b>✦</b><span>COMMUNITY</span><b>✦</b><span>ARTISTRY</span></section>
       <section className="about-school-hero home-school-section">
         <div className="about-school-copy">
-          <div className="section-label light"><span>01</span> Our school</div>
-          <h2>Rathi School<br /><em>of Dance.</em></h2>
           <p>Rathi School of Dance is dedicated to producing, developing, and presenting the classical Indian dance form Bharata Natyam in the Pandanallur style. The school was founded in 1980 by Artistic Director Sheela Chandrashekar, acclaimed for her excellence as a dancer, choreographer, and teacher. Founded with a vision to propagate this art form among future generations of Canadians, the school remains deeply committed to its teaching, practice, and performance. Following a regular school year from September through June, more than 60 students learn and deepen their Bharata Natyam skills as they progress toward their Ranga Pravesh or Arangetram. Over the last four decades, more than 40 students have completed their Ranga Pravesh through Rathi School of Dance, and Sheela continues to guide students intensively each year.</p>
         </div>
         <div className="about-image-placeholder" role="img" aria-label="Rathi School of Dance archive photograph" />
