@@ -324,6 +324,12 @@ nav { gap:34px; font-family:"Libre Baskerville",serif; font-size:9px; letter-spa
 .origins-section { display:grid; grid-template-columns:1.1fr .9fr; gap:8vw; align-items:center; background:var(--plum); color:var(--cream); }
 .origins-placeholder { position:relative; min-height:560px; display:grid; place-items:center; overflow:hidden; border:3px double var(--gold); background:radial-gradient(circle at 65% 30%,rgba(225,169,40,.42),transparent 28%),linear-gradient(145deg,var(--plum-light),#801c2f); color:rgba(255,245,223,.78); text-align:center; text-transform:uppercase; letter-spacing:.18em; line-height:1.8; font-size:11px; }
 .origins-placeholder:after { content:""; position:absolute; inset:12px; border:1px solid rgba(255,245,223,.36); }
+.origins-placeholder.has-image { background:#170b0d url('/nataraja-origins.jpeg') center/cover no-repeat; }
+.home-art-form { padding-top:110px; }
+.art-pillars { margin-top:30px; border-top:3px double rgba(128,28,47,.3); }
+.art-pillars article { padding:22px 0; border-bottom:1px solid rgba(128,28,47,.22); }
+.art-pillars h3 { margin:0 0 8px; color:var(--plum); font-family:"Cormorant Garamond",serif; font-size:34px; font-weight:500; }
+.art-pillars article p { margin:0; font-size:14px; line-height:1.75; }
 .class-list { display:block; margin-top:70px; border-top:3px double rgba(128,28,47,.35); }
 .class-list article { padding:34px 10px; border:0; border-bottom:1px solid rgba(128,28,47,.28); background:transparent; box-shadow:none; }
 .class-list article:hover { transform:none; background:rgba(225,169,40,.07); box-shadow:none; }

@@ -17,16 +17,26 @@ export default function Home() {
         </div>
       </section>
       <section className="marquee" aria-label="School values"><span>DISCIPLINE</span><b>✦</b><span>JOY</span><b>✦</b><span>COMMUNITY</span><b>✦</b><span>ARTISTRY</span></section>
-      <section className="about-school-hero home-school-section">
-        <div className="about-school-copy">
-          <h2>Our<br /><em>School.</em></h2>
-          <p>Rathi School of Dance is dedicated to producing, developing, and presenting the classical Indian dance form Bharata Natyam in the Pandanallur style. The school was founded in 1980 by Artistic Director Sheela Chandrashekar, acclaimed for her excellence as a dancer, choreographer, and teacher. Founded with a vision to propagate this art form among future generations of Canadians, the school remains deeply committed to its teaching, practice, and performance. Following a regular school year from September through June, more than 60 students learn and deepen their Bharata Natyam skills as they progress toward their Ranga Pravesh or Arangetram. Over the last four decades, more than 40 students have completed their Ranga Pravesh through Rathi School of Dance, and Sheela continues to guide students intensively each year.</p>
+      <section className="bharatanatyam-intro home-art-form section">
+        <div className="bharatanatyam-placeholder" role="img" aria-label="Historic South Indian temple associated with the cultural roots of Bharatanatyam" />
+        <div className="bharatanatyam-copy">
+          <div className="section-label"><span>01</span> The art form</div>
+          <h2>What is<br /><em>Bharatanatyam?</em></h2>
+          <p>Bharatanatyam is one of India’s major classical dance forms, rooted in the temples and courts of Tamil Nadu in South India.</p>
+          <div className="art-pillars">
+            <article><h3>Nritta</h3><p>Nritta is pure dance, expressed through precise rhythmic movement without a narrative meaning. It highlights line, balance, coordination, and the intricate relationship between the dancer and the rhythm.</p></article>
+            <article><h3>Natya</h3><p>Natya is dramatic representation, bringing characters, situations, and stories to life on stage. It combines movement, gesture, expression, and theatrical interpretation to communicate a complete narrative.</p></article>
+            <article><h3>Nritya</h3><p>Nritya is expressive dance, where movement and emotion work together to interpret poetry and music. Through facial expression and hand gestures, the dancer conveys feeling, imagery, and meaning.</p></article>
+          </div>
         </div>
-        <div className="about-image-placeholder" role="img" aria-label="Rathi School of Dance archive photograph" />
       </section>
-      <section className="director section">
-        <div className="director-portrait" role="img" aria-label="Artistic Director Sheela Chandrashekar" />
-        <div className="director-copy"><div className="section-label light"><span>Artistic Director</span></div><h2>Sheela<br /><em>Chandrashekar</em></h2><p>Sheela Chandrashekar is a dedicated Bharatanatyam artist and educator whose teaching brings together rigorous classical foundations and a deeply personal approach to expression. She had her initial foundation in the art from the late Guru Sri Muthaiah Pillai of Pandanallur and later trained with the famous dancer couple from Bangalore, India, the late Prof. U.S. Krishna Rao and the late Mrs. Chandra Bhaga Devi. Under their able guidance and careful grooming, Sheela attained professional standards in performance and choreography. She also trained in Abhinaya under Asthaana Vidhushi Dr. Venkatalakshamma of Mysore. Through Rathi School of Dance, Sheela is committed to nurturing the next generation of artists in Ottawa while building a welcoming community around the beauty and depth of Bharatanatyam.</p></div>
+      <section className="origins-section section">
+        <div className="pandanallur-copy">
+          <div className="section-label light"><span>02</span> Roots &amp; history</div>
+          <h2>What does it<br /><em>originate from?</em></h2>
+          <p>Bharatanatyam originates from the temple traditions of Tamil Nadu in South India, where dance, music, poetry, and devotion came together as a unified form of expression. Its movement vocabulary and dramatic language were shaped over centuries through hereditary artistic communities, royal courts, teachers, musicians, and performers. The form draws upon ideas recorded in ancient Indian texts on performance while continuing to live and evolve through the relationship between each teacher and student.</p>
+        </div>
+        <div className="origins-placeholder has-image" role="img" aria-label="Nataraja sculpture symbolizing the origins of Bharatanatyam" />
       </section>
       <Footer />
     </main>
